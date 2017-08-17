@@ -1,0 +1,149 @@
+/*--give margin 0 and font questrial to all using google font*/
+body
+{
+  margin: 0;
+ font-family: 'Questrial', sans-serif;
+
+}
+/*--navigation properties*/
+nav
+{
+  background-color: orange;
+  height: 80px;
+  font-weight: bold;
+}
+nav img
+{
+  float: left;
+  height: 15px;
+  margin-top:30px;
+  margin-left:25px;
+}
+nav h1
+{
+  float: left;
+  display: inline-block;
+  font-weight: normal;
+}
+nav p{
+  margin: 0;
+  padding-top: 20px;
+  display: inline-block;
+  }
+nav ul
+{
+  float: right;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+nav li
+{
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+  padding: 0 10px;
+}
+nav li>a
+{
+  text-decoration: none;
+  color: white;
+}
+nav span
+{
+  color: white;
+  font-weight: bold;
+  font size: 36px;
+
+}
+/*---Header for Search*/
+header {
+  float: right;
+  margin-right: 50px;
+  }
+  header input
+  {
+    height: 25px;
+    width: 240px;
+      }
+header i
+{
+  color: #c5a3a3;
+  position: absolute;
+  top:87px;
+  right: 60px;
+/*--include the image and the text*/
+}
+section
+{
+  text-align: center;
+  margin: auto;
+  width: 100%;
+
+}
+section .image
+{
+
+  width: 20%;
+  margin: 50px auto;
+  margin-left: 180px;
+  display: inline-block;
+
+}
+.text-info
+{
+  display: inline-block;
+  width: 27%;
+  margin-left: 160px;
+
+
+}
+.text-info p
+{
+  font-size: 36px;
+  color:rgba(140,5,40,0.36);
+  line-height: 50px;
+  text-align: justify;
+   height: 170px;
+   width: 550px;
+
+}
+
+#color-orange
+{
+  color: orange;
+  font-weight: bold;
+}
+#blue
+{
+  color: #7cc6ba;
+  font-weight: bold;
+}
+.text-info a{
+  background-color: orange;
+  border: 1px solid orange;
+  padding: 10px 25px;
+
+}
+.text-info a:hover,.text-info a:focus
+{
+  cursor: pointer;
+}
+.text-info a:last-child
+{
+  background-color: #7cc6ba;
+  border: 1px solid #7cc6ba;
+  padding: 10px 25px;
+  margin-left: 5px;
+
+
+}
+/*---the foooter*/
+footer
+{
+  display: block;
+  height: 70px;
+  background-color: #7cc6ba;
+  bottom: 0px;
+  width: 100%;
+  position: fixed;
+}
